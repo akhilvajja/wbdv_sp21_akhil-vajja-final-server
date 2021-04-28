@@ -1,4 +1,4 @@
-package com.example.wbdvsp2103jannunziserverjava.models;
+package com.example.wbdvsp21akhilvajjaserverfinal.models;
 
 import javax.persistence.*;
 

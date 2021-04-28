@@ -1,6 +1,6 @@
-package com.example.wbdvsp2103jannunziserverjava.repositories;
+package com.example.wbdvsp21akhilvajjaserverfinal.repositories;
 
-import com.example.wbdvsp2103jannunziserverjava.models.User;
+import com.example.wbdvsp21akhilvajjaserverfinal.models.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

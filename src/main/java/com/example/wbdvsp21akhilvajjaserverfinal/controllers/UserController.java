@@ -1,7 +1,7 @@
-package com.example.wbdvsp2103jannunziserverjava.controllers;
+package com.example.wbdvsp21akhilvajjaserverfinal.controllers;
 
-import com.example.wbdvsp2103jannunziserverjava.models.User;
-import com.example.wbdvsp2103jannunziserverjava.repositories.UserRepository;
+import com.example.wbdvsp21akhilvajjaserverfinal.models.User;
+import com.example.wbdvsp21akhilvajjaserverfinal.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

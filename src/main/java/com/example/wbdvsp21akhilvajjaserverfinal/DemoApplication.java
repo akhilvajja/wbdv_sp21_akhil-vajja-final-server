@@ -1,4 +1,4 @@
-package com.example.wbdvsp2103jannunziserverjava;
+package com.example.wbdvsp21akhilvajjaserverfinal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

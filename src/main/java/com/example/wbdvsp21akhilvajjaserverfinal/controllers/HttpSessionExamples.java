@@ -1,6 +1,6 @@
-package com.example.wbdvsp2103jannunziserverjava.controllers;
+package com.example.wbdvsp21akhilvajjaserverfinal.controllers;
 
-import com.example.wbdvsp2103jannunziserverjava.models.User;
+import com.example.wbdvsp21akhilvajjaserverfinal.models.User;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 //@CrossOrigin(origins = {"http://localhost:3000", "http://my-heroku-app.com"})
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:3000")
 public class HttpSessionExamples {
     List<User> users = new ArrayList<User>();
 

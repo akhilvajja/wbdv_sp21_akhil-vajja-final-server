@@ -1,7 +1,7 @@
-package com.example.wbdvsp2103jannunziserverjava.controllers;
+package com.example.wbdvsp21akhilvajjaserverfinal.controllers;
 
-import com.example.wbdvsp2103jannunziserverjava.models.Widget;
-import com.example.wbdvsp2103jannunziserverjava.services.WidgetService;
+import com.example.wbdvsp21akhilvajjaserverfinal.models.Widget;
+import com.example.wbdvsp21akhilvajjaserverfinal.services.WidgetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

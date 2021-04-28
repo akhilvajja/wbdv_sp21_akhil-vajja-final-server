@@ -1,6 +1,4 @@
-package com.example.wbdvsp2103jannunziserverjava.models;
-
-import org.hibernate.annotations.NaturalId;
+package com.example.wbdvsp21akhilvajjaserverfinal.models;
 
 import javax.persistence.*;
 

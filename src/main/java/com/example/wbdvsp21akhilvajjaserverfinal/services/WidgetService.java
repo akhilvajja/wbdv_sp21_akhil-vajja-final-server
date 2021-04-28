@@ -1,12 +1,10 @@
-package com.example.wbdvsp2103jannunziserverjava.services;
+package com.example.wbdvsp21akhilvajjaserverfinal.services;
 
-import com.example.wbdvsp2103jannunziserverjava.models.Widget;
-import com.example.wbdvsp2103jannunziserverjava.repositories.WidgetRepository;
+import com.example.wbdvsp21akhilvajjaserverfinal.models.Widget;
+import com.example.wbdvsp21akhilvajjaserverfinal.repositories.WidgetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Service
