@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 //@CrossOrigin(origins = {"http://localhost:3000", "http://my-heroku-app.com"})
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://wbdv-akhil-vajja-final-project.herokuapp.com")
 public class HttpSessionExamples {
     List<User> users = new ArrayList<User>();
 
@@ -33,7 +33,7 @@ public class HttpSessionExamples {
         return currentUser;
     }
 
-    @GetMapping("/api/logout")
+    @GetMapping("/api/logout2")
     public void logout
             (HttpSession session) {
         session.invalidate();

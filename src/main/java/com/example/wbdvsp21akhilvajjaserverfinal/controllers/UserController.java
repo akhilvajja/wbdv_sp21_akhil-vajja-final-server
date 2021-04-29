@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 
 @RestController
 @CrossOrigin(
-        origins = "http://localhost:3000",
+        origins = "https://wbdv-akhil-vajja-final-project.herokuapp.com",
         allowCredentials = "true")
 public class UserController {
     @Autowired
@@ -28,7 +28,12 @@ public class UserController {
         }
         return null;
     }
-    
+
+    @GetMapping("/api/logout")
+    public void logout
+            (HttpSession session) {
+        session.invalidate();
+    }
     
     @PostMapping("/api/register")
     public User register(
