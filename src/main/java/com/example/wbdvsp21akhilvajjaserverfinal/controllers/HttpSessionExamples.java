@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 //@CrossOrigin(origins = {"http://localhost:3000", "http://my-heroku-app.com"})
-@CrossOrigin(origins = "https://wbdv-akhil-vajja-final-project.herokuapp.com")
+@CrossOrigin(origins = "http://wbdv-akhil-vajja-final-project.herokuapp.com")
 public class HttpSessionExamples {
     List<User> users = new ArrayList<User>();
 

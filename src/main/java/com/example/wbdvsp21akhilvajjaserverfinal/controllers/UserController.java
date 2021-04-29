@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 
 @RestController
 @CrossOrigin(
-        origins = "https://wbdv-akhil-vajja-final-project.herokuapp.com",
+        origins = "http://wbdv-akhil-vajja-final-project.herokuapp.com",
         allowCredentials = "true")
 public class UserController {
     @Autowired
